@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <title>KIENAAN ABDI</title>
+</head>
+
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="index.html" class="navbar-brand"><img id="logo-image" src="./images/logo.png" alt=""></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacts.html" class="nav-link">CONTACTS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1">
+
+            </div>
+            <div id="about" class="col-7">
+                <h1>ABOUT ME</h1>
+                <p>I am <span>KIENAAN ABDI</span>, I am a computer Scince major with a cncentration in Software
+                    Engineering at UIC</p>
+                <p>These are some of my abilities:</p>
+                <div id="about-in-row" class="row">
+                    <div class="col-5">
+                        <ul>
+                            <li>Web design using HTML, CSS, JAVASCRIPT</li>
+                        </ul>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-5">
+                        <ul>
+                            <li>How to program using PYTHON</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="about-in-row" class="row">
+                    <div class="col-5">
+                        <ul>
+                            <li>Data statistics for computer science</li>
+                        </ul>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-5">
+                        <ul>
+                            <li>Data manipulation using PYTHON and C++</li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="button"> <a href="#"></a> Download Resume</button>
+            </div>
+            <div class="col-4">
+                <img src="./images/my_pic.png" alt="">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="footer-tags">&copy; Copyright 2021 KIENAAN <br>
+            <a href="https://www.linkedin.com/in/kienaan-abdi-552587185/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Kienaan"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+        </p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>

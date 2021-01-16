@@ -1,0 +1,204 @@
+body {
+    background: #caf0f8;
+    font-family: "Nunito", sans-serif;
+}
+
+#logo-image{
+    width: 6rem;
+    height: 5rem;
+    background-color: black;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 12px black;
+}
+/* #90e0ef */
+
+.row .img-fluid {
+    box-shadow: 2px 2px 12px black;
+}
+
+#first-container{
+    margin-top: 200px;
+}
+
+/* .blurb h2 {
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 2.5rem;
+} */
+
+/* .blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+} */
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100; 
+    background-color: #0096c7;   
+}
+
+#mainNavbar .nav-link {
+    color: #000000;
+    font-weight: 300;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+    color: #000000;
+}
+
+#headingGroup p {
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+#headingGroup h3 {
+    font-weight: 100;
+    font-size: 2rem;
+    font-family: cochin;
+    color: #000000;
+    margin-top: 1.5rem;
+}
+
+#headingGroup .btn {
+    margin-top: 1.5rem;
+    box-shadow: 2px 2px 12px black;
+}
+
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+}
+
+footer{
+    text-align: center;
+    background-color: #0096c7;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    position: fixed;
+    bottom: 0;
+  }
+.footer-tags {
+    color: #000000;
+  }
+
+  .footer-tags a{
+    color: #000000;
+  }
+
+  /* portfolio */
+.showcase-content h2{
+    color: blue;
+    text-align: center;
+  }
+  
+  .port img{
+    width: 30%;
+    height: 500px;
+    /* margin: 1.6666666%; */
+    margin: calc(10%/6);
+  }
+
+.port{
+    margin: 80px 0 100px;
+}
+
+/* About section */
+
+.row .col-7{
+    margin-top: 200px;
+    text-align: center;
+    color: red;
+    font-size: large;
+    font-weight: 400;
+    font-family: Cochin;
+    /* border-bottom: 3px solid grey; */
+}
+
+.row img{
+    /* border-right: 2px solid grey; */
+    border-bottom: 2px solid grey;
+    border-radius: 20px;
+    
+}
+
+#about span{
+    text-align: center;
+    
+}
+
+#contact{
+    margin-top: 100px;
+}
+
+#contact h2{
+    text-align: center;
+    color: #0096c7;
+}
+
+/* About section */
+
+#about h1{
+    color: Blue;
+}
+
+#about p{
+    color: #000000;
+}
+
+#about ul li{
+    list-style: none;
+    color: #4d194d;
+}
+
+#about span{
+    color: blue;
+}
+
+#about-in-row .col-5{
+    margin-top: 25px;
+    background-color: #ade8f4;
+    box-shadow: 2px 2px 12px black;
+}
+
+#about button{
+    margin-top: 70px;
+    box-shadow: 2px 2px 12px black;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+
+
+

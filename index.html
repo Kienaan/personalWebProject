@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <title>KIENAAN ABDI</title>
+</head>
+
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="index.html" class="navbar-brand"><img id="logo-image" src="./images/logo.png" alt=""></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacts.html" class="nav-link">CONTACTS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="first-container" class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div id="headingGroup" class="text-white text-center d-lg-block my-5">
+
+                    <h1>Hello!! I AM <span class="name">KIENAAN</span></h1>
+                    <p>“Is Coding the New Literacy?” I believe soon; code literacy will no longer be an elite skill but
+                        rather a necessity. As society’s dependency on technology furthers, more jobs will require an
+                        ability to understand, read, and write code as a baseline for adequate job performance.
+                        Therefore, I decided to become a software engineer so that I contribute to society’s
+                        development.
+                    </p>
+                    <h3>For future employers please click below for resume</h3>
+                    <button class="btn btn-primary" type="button"> <a href="#"></a> Download Resume</button>
+                </div>
+            </div>
+            <div class="col-lg-6 md-mb-2">
+                <img class="img-fluid" src="./images/code3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="footer-tags">&copy; Copyright 2021 KIENAAN <br>
+            <a href="https://www.linkedin.com/in/kienaan-abdi-552587185/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Kienaan"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+        </p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>
